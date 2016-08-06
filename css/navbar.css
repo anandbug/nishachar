@@ -12,14 +12,18 @@ body {
 .navbar {
     background-image: none;
 }
+.navbar-brand>img {
+    height: 100%;
+    width: auto;
+}
 .navbar-default {
   background-color: #f77112;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f5dd9d), to(#e05707));
-  background-image: -webkit-linear-gradient(top, #f5dd9d, 0%, #e05707, 100%);
-  background-image: -moz-linear-gradient(top, #f5dd9d 0%, #e05707 100%);
-  background-image: linear-gradient(to bottom, #f5dd9d 0%, #e05707 100%);
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ffffff), to(#ff0000));
+  background-image: -webkit-linear-gradient(top, #ffffff, 0%, #ff0000, 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #ff0000 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #ff0000 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5dd9d', endColorstr='#ffe05707', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffff0000', GradientType=0);
 }
 .navbar-default .navbar-brand {
   color: #e0f5e0;
@@ -32,7 +36,7 @@ body {
   color: #e0f5e0;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: #000000;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -61,9 +65,9 @@ body {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #f5dd9d;
-  background-color: #e05707;
-    background-image: none;
+  color: #ffffff;
+  background-color: #ff0000;
+  background-image: none;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
