@@ -2,11 +2,22 @@ body {
     padding-top: 10px;
 }
 
+.jumbotron {
+    background: url("/img/jumbo-back.svg") center center no-repeat;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.jumbotron h2{
+    font-family:Courier New;
+    color: red;
+}
 .img-responsive {
     margin: 0 auto;
 }
 
-.glyphicon {
+.glyphicon-home{
     padding-right: 10px;
 }
 .navbar {
