@@ -13,15 +13,16 @@ body {
     font-family:Courier New;
     color: red;
 }
+.bottom {
+    padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
 .img-responsive {
     margin: 0 auto;
 }
 
 .glyphicon-home{
     padding-right: 10px;
-}
-.navbar {
-    background-image: none;
 }
 .navbar-brand>img {
     height: 100%;
@@ -77,7 +78,6 @@ body {
 .navbar-default .navbar-nav > .active > a:focus {
   color: floralwhite;
   background-color: #ff0000;
-  background-image: none;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
