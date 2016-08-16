@@ -1,5 +1,10 @@
 body {
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand>img {
+    width: 60px;
 }
 
 .jumbotron {
@@ -13,22 +18,8 @@ body {
     font-family:Courier New;
     color: red;
 }
-.bottom {
-    padding-bottom: 10px;
-	border-bottom: 1px solid #ccc;
-}
-.img-responsive {
-    margin: 0 auto;
-}
 
-.glyphicon-home{
-    padding-right: 10px;
-}
-.navbar-brand>img {
-    height: 100%;
-    width: auto;
-}
-.navbar-default {
+/*.navbar-default {
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ffaaaa), to(#ff0000));
   background-image: -webkit-linear-gradient(top, #ffaaaa, 0%, #ff0000, 100%);
   background-image: -moz-linear-gradient(top, #ffaaaa 0%, #ff0000 100%);
@@ -108,7 +99,7 @@ body {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #e0f5e0;
+    color: floralwhite;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -117,7 +108,7 @@ body {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #f5dd9d;
+    color: floralwhite;
     background-color: #e05707;
   }
-}
+}*/
