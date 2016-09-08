@@ -9,48 +9,54 @@
         <title>Nishachar</title>
 
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-        
-        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">        
+        <link rel="stylesheet" href="/css/navbar.css" />
+        <link rel="stylesheet" href="/css/octicons.min.css" />
 
     </head>
     <body>
         <div class="container">
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-                            &#9776;
-                        </button>
-                        <a class="navbar-brand" href="index.html"><img src="/img/nishchar-txt.svg" alt="निशाचर"></a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="index.html">&#9776; Home</a>
-                            </li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li class="active"><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
+            <nav class="navbar navbar-light bg-faded">
+                <div class="clearfix">
+                    <a class="navbar-brand" href="index.html"><img src="/img/nishchar-txt.svg" alt="निशाचर"></a>
+                    <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        &#9776;
+                    </button>
+                </div>
+                <div id="navbar" class="collapse navbar-toggleable-xs">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home<span class="octicon octicon-clippy"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
                 <!--/.nav-collapse -->
             </nav>
             
             <div class="jumbotron text-xs-center">
                 <!-- Main component for a primary marketing message or call to action -->
-                <img class="img-center" width="200px" src="/img/logo.svg">
+                <img class="img-center" width="100px" src="/img/logo.svg">
                 <img class="img-center" width="200px"src="/img/nishchar-txt.svg">
             </div>
             <div class="card">
                 <h3 class="card-header">Locate Us</h3>
                 <div class="card-block">
                     <div class="row">
-                        <div class="col-md-4">
-                            <h4>Address:</a></h4>
-                            <p class="card-text lead">
+                        <div class="col-lg-4">
+                            <h5 class="card-title">Address:</h5>
+                            <p class="card-text">
                                 Goyalco Orchid Lakeview<br/> 
                                 Kariyammana Agrahara,<br/>
                                 Bellandur,<br/>
@@ -60,11 +66,11 @@
                                 Fax: XXX-XXX-YYYY
                             </p>
                         </div>
-                        <div class="col-md-8">
-                            <h4 class="card-title"><a href="https://www.google.com/maps/embed/v1/place?q=Goyalco+Orchid+Lakeview,+Bellandur,+Bengaluru,+Karnataka,+India&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"><span class="glyphicon glyphicon-map-marker"></span>Map Location</a></h4>
-                            <div>
-                                <iframe style="height:230px;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Goyalco+Orchid+Lakeview,+Bellandur,+Bengaluru,+Karnataka,+India&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
-                            </div>
+                        <div class="col-lg-8">
+                            <h5 class="card-title">
+                                <a href="https://www.google.com/maps/embed/v1/place?q=Goyalco+Orchid+Lakeview,+Bellandur,+Bengaluru,+Karnataka,+India&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU">Map Location</a>
+                            </h5>
+                            <iframe style="height:175px;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Goyalco+Orchid+Lakeview,+Bellandur,+Bengaluru,+Karnataka,+India&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
                         </div>
                     </div>
                 </div>
@@ -76,8 +82,7 @@
             </div>-->
         </div>
         <!-- Latest compiled and minified JavaScript -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>       
+        <script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
     </body>
 </html>

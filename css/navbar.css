@@ -2,15 +2,17 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.navbar {
+    background-color: #ff0000;
+}
 
 .navbar-brand>img {
     width: 60px;
 }
 
 .jumbotron {
+    margin-top: 10px;
     background: url("/img/jumbo-back.svg") center center no-repeat;
-    height: 100%;
-    overflow: hidden;
     background-size: cover;
 }
 

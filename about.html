@@ -9,38 +9,44 @@
         <title>Nishachar</title>
 
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-        
-        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">        
+        <link rel="stylesheet" href="/css/navbar.css" />
+        <link rel="stylesheet" href="/css/octicons.min.css" />
 
     </head>
     <body>
         <div class="container">
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-                            &#9776;
-                        </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/nishchar-txt.svg" alt="निशाचर"></a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="index.html"><span class="glyphicon glyphicon-home"></span>Home</a>
-                            </li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li class="active"><a href="#">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
+            <nav class="navbar navbar-light bg-faded">
+                <div class="clearfix">
+                    <a class="navbar-brand" href="index.html"><img src="/img/nishchar-txt.svg" alt="निशाचर"></a>
+                    <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        &#9776;
+                    </button>
+                </div>
+                <div id="navbar" class="collapse navbar-toggleable-xs">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home<span class="octicon octicon-clippy"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
                 <!--/.nav-collapse -->
             </nav>
-             <div class="jumbotron text-xs-center">
+            <div class="jumbotron text-xs-center">
                 <!-- Main component for a primary marketing message or call to action -->
-                <img class="img-center" width="200px" src="/img/logo.svg">
+                <img class="img-center" width="100px" src="/img/logo.svg">
                 <img class="img-center" width="200px"src="/img/nishchar-txt.svg">
             </div>
             <div class="card card-block">
@@ -71,7 +77,6 @@
         </div>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -11,32 +11,38 @@
         <title>निशाचर</title>
 
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
-        
-        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" crossorigin="anonymous">        
+        <link rel="stylesheet" href="/css/navbar.css" />
+        <link rel="stylesheet" href="/css/octicons.min.css" />
 
     </head>
     <body>
         <div class="container">
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-                            &#9776;
-                        </button>
-                        <a class="navbar-brand" href="#"><img src="/img/nishchar-txt.svg" alt="निशाचर"></a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href="#"><span class="glyphicon glyphicon-home"></span>Home</a>
-                            </li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
+            <nav class="navbar navbar-light">
+                <div class="clearfix">
+                    <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        &#9776;
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="/img/nishchar-txt.svg" alt="निशाचर"></a>
+                </div>
+                <div id="navbar" class="collapse navbar-toggleable-xs">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home<span class="octicon octicon-clippy"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
                 <!--/.nav-collapse -->
             </nav>
@@ -44,8 +50,8 @@
             <div class="jumbotron">
                 <div class="row">
                     <div class="col-md-4 text-xs-center">
-                        <img class="img-responsive" width="200px" src="img/logo.svg" />
-                        <img class="img-responsive" width="200px" src="img/nishchar-txt.svg" />
+                        <img class="img-responsive" width="150px" src="img/logo.svg" />
+                        <img class="img-responsive" width="150px" src="img/nishchar-txt.svg" />
                     </div>
                     <div class="col-md-8 text-xs-center">
                         <h2>We are <strong>Coders</strong><br/>
@@ -59,9 +65,10 @@
                 </div>
             </div>
         </div>
+        
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.min.js" crossorigin="anonymous"></script>
     </body>
 </html>
