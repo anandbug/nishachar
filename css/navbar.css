@@ -1,22 +1,21 @@
 body {
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 .navbar {
     background-color: #ff0000;
 }
-
 .navbar-brand>img {
     width: 60px;
 }
 
-.jumbotron {
+.jumbotron-fluid {
     margin-top: 10px;
+    margin-bottom: 10px;
     background: url("/img/jumbo-back.svg") center center no-repeat;
     background-size: cover;
 }
-
 .jumbo-txt{
+    margin-top: 20px;
     font-family:Courier New;
     color: red;
 }
