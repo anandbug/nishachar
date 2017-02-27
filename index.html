@@ -1,103 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
     <head>
-        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="A Bangalore based software company with focus on mobile and web development">
-        <meta name="author" content="Anand Kumar">
-        
-        <title>निशाचर</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="description" content="A Bangalore based software company with focus on mobile and web development">
+          <meta name="author" content="Anand Kumar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+          <title>निशाचर</title>
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/navbar.css" />
-    </head>
+        <!-- Page styles -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-deep_purple.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+        #view-source {
+          position: fixed;
+          display: block;
+          right: 0;
+          bottom: 0;
+          margin-right: 40px;
+          margin-bottom: 40px;
+          z-index: 900;
+        }
+        </style>
+      </head>
     <body>
-        <nav class="navbar navbar-fixed-top navbar-dark">
-            <div class="container">
-                <div class="clearfix">
-                    <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                    </button>
-                    <a class="navbar-brand hidden-sm-up" href="index.html"><img src="/img/nishchar-txt.svg" alt="निशाचर"></a>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-                </div>
-                <div id="navbar" class="collapse navbar-toggleable-xs">
-                    <a class="navbar-brand hidden-xs-down" href="index.html"><img src="/img/nishchar-txt.svg" alt="निशाचर"></a>
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/products.html">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+          <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+            <div class="mdl-layout__header-row">
+              <span class="android-title mdl-layout-title">
+                <img class="android-logo-image" src="img/nishchar-txt.svg">
+              </span>
+              <!-- Add spacer, to align navigation to the right in desktop -->
+                <div class="android-header-spacer mdl-layout-spacer"></div>
+              <!-- Navigation -->
+              <div class="android-navigation-container">
+                <nav class="android-navigation mdl-navigation">
+
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href=""><i class="material-icons">home</i></a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Products</a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Services</a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">About Us</a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#locate-us"><i class="material-icons">location_on</i></a>
+                    <a href="nishachar.business.zoho.com" target="_blank" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Login</a>
+                </nav>
+              </div>
+              <span class="android-mobile-title mdl-layout-title">
+                <img class="android-logo-image" src="img/nishchar-txt.svg">
+              </span>
             </div>
-            <!--/.nav-collapse -->
-        </nav>
-        <div class="container">
-            <!-- Main component for a primary marketing message or call to action -->
-            <div class="jumbotron-fluid">
-                <div class="row">
-                    <div class="col-md-4 text-xs-center">
-                        <img class="img-responsive" width="200px" src="img/logo.svg" />
-                        <img class="img-responsive" width="200px" src="img/nishchar-txt.svg" />
-                    </div>
-                    <div class="col-md-8 text-xs-center">
-                        <h3 class="jumbo-txt">
-                            We are <strong>Coders</strong><br/>
-                            We are <strong>Designers</strong><br/>
-                            We are <strong>Nocturnals<br/>
-                            &<br/></strong>
-                            We <strong><3 <a href="https://en.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a></strong><br/>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <footer class="container">
-            <div class="row">
-                <div class="col-xs-4">
-                    <ul class="list-unstyled">
-                        <li>Products<li>
-                        <li><a href="#">Roll Call</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-4">
-                    <ul class="list-unstyled">
-                        <li>Services<li>
-                        <li><a href="#">Mobile App Develpoment</a></li>
-                        <li><a href="#">Web Design</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-4">
-                    <ul class="list-unstyled">
-                        <li><a href="/about.html">About Us</a></li>                            
-                        <li><a href="/contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <p class="text-muted pull-xs-right">© 2016 Nishachar is a Software Company. All rights reserved</p>
-        </footer>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+          </div>
+
+          <div class="android-drawer mdl-layout__drawer">
         
-        <script src="https://use.fontawesome.com/860d69b032.js"></script>
+            <span class="mdl-layout-title">
+                <img class="android-logo-brand" src="img/logo.png">
+                <img class="android-logo-image" src="img/nishchar-txt.svg">
+            </span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Home</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">About Us</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Products</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Services</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contact Us</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#locate-us">Locate Us</a>
+                
+            </nav>
+          </div>
 
+          <div class="android-content mdl-layout__content">
+            <a name="top"></a>
+            <div class="android-be-together-section mdl-typography--text-center">
+                <div class="android-logo-slogan">
+                    <img src="img/logo.png" height="200px"/>
+                </div>
+                
+                <div class="logo-font android-slogan"><img class="android-slogan-image" src="img/nishchar-txt.svg"/></div>
+                  
+                <div class="logo-font android-sub-slogan">We are Coders, We are Designers, We are Nocturnals &amp; We <i class="material-icons">favorite</i> <a href="https://en.wikipedia.org/wiki/Charles_Babbage">CHARLES BABBAGE</a>
+                </div>
+              <a href="#screens">
+                <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+                  <i class="material-icons">expand_more</i>
+                </button>
+              </a>
+            </div>
+            <div class="android-screen-section mdl-typography--text-center">
+              <a name="screens"></a>
+              <div class="mdl-typography--display-1-color-contrast">Products... that we Offer</div>
+              <div class="android-screens">
+                <div class="android-wear android-screen">
+                  <a class="android-image-link" href="">
+                    <img class="android-screen-image" src="img/rollcall-xxx.png">
+                  </a>
+                  <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Roll Call</a>
+                </div>
+                <div class="android-auto android-screen">
+                  <a class="android-image-link" href="">
+                    <img class="android-screen-image" src="img/rollcall-xxx.png">
+                  </a>
+                  <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Coming Soon: Roll Call-Biometric</a>
+                </div>
+              </div>
+            </div>
+            <div class="android-more-section">
+                <a name="locate-us"></a>
+              <div class="android-section-title mdl-typography--display-1-color-contrast"><i class="material-icons">location_on</i>Locate Us</div>
+              <div class="android-card-container">
+                <div class="mdl-card mdl-shadow--3dp">
+                  <div class="mdl-card__media">
+                    <iframe style="height:200px;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Goyalco+Orchid+Lakeview,+Bellandur,+Bengaluru,+Karnataka,+India&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+                  </div>
+                  <div class="mdl-card__title">
+                     <h4 class="mdl-card__title-text">Address</h4>
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                    <span class="mdl-typography--font-light mdl-typography--subhead">Goyalco Orchid Lakeview<br/> 
+                                Kariyammana Agrahara,<br/>
+                                Bellandur,<br/>
+                                Bengaluru,<br/>
+                                Karnataka-560103<br/>
+                                <i class="material-icons address-phone">phone</i><strong>+91 9535 358 358<br/></strong>
+                                <i class="material-icons address-phone">email</i> admin@nishachar.in</span>
+                  </div>
+                  <!--<div class="mdl-card__actions">
+                     <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                       Make the switch
+                       <i class="material-icons">chevron_right</i>
+                     </a>
+                  </div>-->
+                </div>
+
+                
+              </div>
+            </div>
+
+            <footer class="android-footer mdl-mega-footer">
+              <div class="mdl-mega-footer--top-section">
+                <div class="mdl-mega-footer--right-section">
+                  <a class="mdl-typography--font-light" href="#top">
+                    Back to Top
+                    <i class="material-icons">expand_less</i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="mdl-mega-footer--middle-section">
+                <p class="mdl-typography--font-light">Graphics © 2017 निशाचर</p>
+              </div>
+
+              <div class="mdl-mega-footer--bottom-section">
+                <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
+                  Products
+                  <i class="material-icons">arrow_drop_up</i>
+                </a>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+                  <li class="mdl-menu__item">Roll Call</li>
+                  <li class="mdl-menu__item">Roll Call-Biometric</li>
+                </ul>
+                <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
+                  Services
+                  <i class="material-icons">arrow_drop_up</i>
+                </a>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+                  <li class="mdl-menu__item">Graphic Design</li>
+                  <li class="mdl-menu__item">Website Design</li>
+                  <li class="mdl-menu__item">Mobile Development</li>
+                </ul>
+                <a class="android-link mdl-typography--font-light" href="">Blog</a>
+                <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
+              </div>
+
+            </footer>
+          </div>
+        </div>
+        <a href="" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Contact Us</a>
+        <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     </body>
 </html>
