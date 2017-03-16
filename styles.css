@@ -297,6 +297,7 @@ a img{
 
 .android-card-container {
     width: 100%;
+    vertical-align: middle
 }
 
   .android-card-container .mdl-card__media {
@@ -322,7 +323,7 @@ a img{
     height: auto;
     color: black;
     padding-bottom: 56px;
-      align-content: center;
+    align-content: center;
   }
     .address-phone {
         color: #6ab344;
