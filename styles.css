@@ -35,12 +35,6 @@ a img{
 }
 
 
-.android-logo-image {
-  height: 32px;
-  width: 140px;
-}
-
-
 .android-header {
   overflow: visible;
 }
@@ -54,9 +48,14 @@ a img{
     color: white;
   }
 
+  .android-header .android-logo-brand {
+      height: 28px;
+      width: 140px;
+  }
+
   .android-header .mdl-navigation__link {
     color: white;
-    font-weight: 200;
+    font-weight: 500;
     font-size: 14px;
   }
 
@@ -106,7 +105,7 @@ a img{
   .android-drawer .mdl-navigation__link.mdl-navigation__link {
     font-size: 14px;
     color: #757575;
-    font-weight: 200;
+    font-weight: 500;
   }
 
   .android-drawer span.mdl-navigation__link.mdl-navigation__link {
@@ -118,38 +117,39 @@ a img{
     height: 160px;
   }
 
-    .android-drawer .android-logo-image {
-        position: absolute;
-        bottom: 1px;
-    }
-    .android-drawer .android-logo-brand {
-        position: absolute;
-        width: 140px;
-        
-    }
+.android-drawer .android-logo-image {
+    position: absolute;
+    width: 100px;
+    left: 60px;
+    top: 10px;
+}
+.android-drawer .android-logo-brand {
+    position: absolute;
+    bottom: 10px;
+    height: 28px;
+    width: 140px;
+}
 
 .android-be-together-section {
   position: relative;
   width: auto;
-  background-color: #f3f3f3;
+  height: auto;
+  background-color: #f44336;
   background-size: cover;
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #37474f;
-  font-weight: 600;
+  color: white;
+  font-weight: 200;
 }
 
 .android-logo-slogan{
    padding-top: 24px;
 }
 
-.android-slogan {
-  font-size: 60px;
-}
 .android-slogan .android-slogan-image {
    width: 200px; 
 }
@@ -157,7 +157,20 @@ a img{
 .android-sub-slogan {
   font-size: 21px;
   padding-top: 12px;
-    
+}
+
+.android-sub-slogan .material-icons{
+  position: relative;
+  vertical-align: bottom;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.android-sub-slogan a {
+  font-size: 21px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 200;
 }
 
 .android-screen-section {
@@ -205,34 +218,6 @@ a img{
     z-index: 1;
   }
 
-
-.android-wear-section {
-  position: relative;
-  background: url('images/wear.png') center top no-repeat;
-  background-size: cover;
-  height: 800px;
-}
-
-.android-wear-band {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #37474f;
-}
-
-.android-wear-band-text {
-  max-width: 800px;
-  margin-left: 25%;
-  padding: 24px;
-  text-align: left;
-  color: white;
-}
-
-  .android-wear-band-text p {
-    padding-top: 8px;
-  }
-
 .android-link {
   text-decoration: none;
   color: #8bc34a !important;
@@ -278,14 +263,8 @@ a img{
     padding-top: 16px;
   }
 
-.android-customized-section-image {
-  background: url('images/devices.jpg') center top no-repeat;
-  background-size: cover;
-  height: 400px;
-}
-
 .android-more-section {
-  padding: 80px 0;
+  padding: 80px 10px;
   max-width: 1044px;
   margin-left: auto;
   margin-right: auto;
@@ -326,10 +305,13 @@ a img{
     padding-bottom: 56px;
     align-content: center;
   }
-    .address-phone {
-        color: #6ab344;
-        padding-right: 8px;
-    }
+
+  .mdl-card__supporting-text .material-icons{
+    color: #8bc34a;
+    position: relative;
+    vertical-align: bottom;
+    padding-right: 16px;
+  }
 
   .android-card-container .mdl-card__actions {
     position: absolute;
